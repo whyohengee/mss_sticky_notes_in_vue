@@ -8,7 +8,7 @@
           :timestamp="note.timestamp"
         />
       </div>
-      <router-link to="/form/new">Add Note</router-link>
+      <router-link to="/form">Add Note</router-link>
    </div>
 </template>
 

@@ -11,9 +11,4 @@ export const routes = [
       name: 'form',
       component: Form
     },
-    {
-      path: '/form/new',
-      name: 'newNote',
-      component: Form
-    }
 ];

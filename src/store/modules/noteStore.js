@@ -26,7 +26,7 @@ const actions = {
     ctx.commit('addNoteToState', noteObj)
   },
   editExistingNote (ctx, noteObj) {
-
+    ctx.commit('editNoteAlreadyInState', noteObj)
   }
 }
 
@@ -35,6 +35,9 @@ const mutations = {
     state.notes.push(noteObj)
 
     console.log('added: ', state.notes)
+  },
+  editNoteAlreadyInState (state, noteObj) {
+    console.log('mutation to edit existing note')
   }
 }
 
